@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #F6F8FC;
+    width: 100%;
+}
+
+.container {
+    border: none;
+    background-color: ivory;
+    width: 80%;
+    height: 70vh;
+    margin: 7%;
+    margin-bottom: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+
+.image,
+.text {
+    width: 50%;
+}
+
+.logo {
+    margin: 20px 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+
+.text {
+    font-family: sans-serif;
+}
+
+.text h1 {
+    width: 500px;
+    margin-top: 20px;
+    font-weight: normal;
+}
+
+.form-combo {
+    width: 50%;
+    margin-right: 20px;
+    padding-top: 100px;
+
+}
+
+
+
+
+input {
+    display: block;
+    width: 100%;
+    margin: 15px;
+    padding: 15px;
+    font-size: larger;
+    border: 1px solid gray;
+    border-radius: 10px;
+    right: 0;
+}
+
+.form-combo button {
+    padding: 20px 40px 20px 40px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-left: 80%;
+}
+
+button:hover {
+    background-color: #357ae8;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+.bn {
+    border: none;
+    margin-left: 7.3%;
+    background: transparent;
+    padding-right: 10px;
+}
+
+.listf {
+    margin-right: 12%;
+}
